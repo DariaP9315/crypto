@@ -1,0 +1,43 @@
+.about-us {
+  padding: 40px 0;
+}
+
+.about-us__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  margin-bottom: 34px;
+  color: #55c2ff;
+}
+
+.about-us__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.about-us__advantage {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.about-us__exchange-rates {
+  max-width: 380px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-us__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-us__title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+}
